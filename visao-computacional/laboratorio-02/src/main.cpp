@@ -1,7 +1,3 @@
-/*
-Laboratório 02 — Detecção de Pratos com Transformada de Hough
-*/
-
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include <filesystem>
@@ -13,7 +9,8 @@ using namespace cv;
 using namespace std;
 namespace fs = filesystem;
 
-int main() {
+int main()
+{
     // Caminhos utilizados
     string imagePath  = "../images/";
     string outputPath = "../detections/";
